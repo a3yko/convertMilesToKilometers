@@ -8,5 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
 
+var miles:Double = 10.00
+
+func convertMilesToKilometers(_ miles: Double) -> Double {
+    return miles * 1.60934
+}
+
+print(convertMilesToKilometers(10))
